@@ -1,0 +1,139 @@
+body {
+    background-color: rgb(6,8,11);
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.responsive {
+    margin-top: 2cm;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    height: 20vh;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(10,12,16);
+    color: #ffffff;
+    text-align: center;
+}
+
+.login-container {
+    width: 380px;
+    height: 90vh;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: rgb(28,32,38);
+    border-radius: 5px;
+}
+
+.logo {
+    display: flex;
+    justify-content: left;
+    padding-top: -0.1cm;
+}
+
+footer {
+    border-top: 0.01px solid #222222;
+}
+
+footer a {
+    margin: 14px;
+    color: #ffffff;
+    text-decoration: none;
+    justify-content: left;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin-top: -1.5cm;
+    text-align: right;
+    margin-right: 80px;
+}
+
+.login-container input[type="text"], 
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 15px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #7d7979fb;
+}
+
+.login-container .social-login {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.login-container .social-login button {
+    width: 100%;
+    padding: 1px;
+    margin: 5px 0;
+    background-color: rgb(28,32,38);
+    color: rgb(252, 251, 251);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-container .social-login button.google {
+    background-color: rgb(28,32,38);
+}
+
+.login-container .social-login button.apple {
+    background-color: rgb(28,32,38);
+}
+
+.login-container .social-login button.x {
+    background-color: rgb(28,32,38);
+}
+
+.login-container .social-login button:hover {
+    opacity: 0.8;
+}
+
+.input-group input {
+    color: black;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.input-group input:focus {
+    border-color: #007bff;
+    outline: none;
+}
